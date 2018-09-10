@@ -1,0 +1,132 @@
+$mobile: 425px;  
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extral: 1200px;
+
+//// add inline media
+////   @media #{$pxs} {}
+//$pxs: "screen and (max-width: 425px)";
+////   @media #{$xs} {} 
+//$xs: "screen and (min-width: 425px)";
+////   @media #{$sm} {}
+//$sm: "screen and (min-width: 576px)";
+////   @media #{$md} {}
+//$md: "screen and (min-width: 768px)";
+////   @media #{$lg} {}
+//$lg: "screen and (min-width: 992px)";
+////   @media #{$xl} {}
+//$xl: "screen and (min-width: 1200px)";
+
+@media screen and (min-width: $mobile) {
+    .about {
+        &-item {
+            &__text {
+                width: 65%;
+            }
+            &__img {
+                width: 35%;
+            }    
+        }   
+    }
+}
+@media screen and (min-width: $small) {
+    .blog-item__desc-caption {font-size: 1.6em;}
+    .blog-article__img-pic {top: -1rem;}
+    .about {
+        &-item {
+            flex-direction: column;
+            &__text {
+                padding: 0;
+                width: 100%;
+            }
+            &__img {
+                width: 100%;
+            }    
+        }   
+    }
+}
+@media screen and (min-width: $medium) {
+    .slider-container__item-text {
+        display: block;
+        width: 50%;
+    }
+    .reviews-item__openbtn{width: 50px;}
+}
+@media screen and (min-width: $large) {
+    .footer__social {justify-content: space-around;}
+    .slider {
+        &-container {
+            &__item {
+                position: relative;
+                max-height: 300px;
+                &-image{
+                    display: flex;
+                    justify-content: flex-end;
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+                &-gradient {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    z-index: 2;
+                    width: 100%;
+                    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 20%, rgba(255,255,255,0.33) 30%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%);
+                    background: -o-linear-gradient(left, rgba(255,255,255,1) 20%, rgba(255,255,255,0.33) 30%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%);
+                    background: linear-gradient(to right, rgba(255,255,255,1) 20%, rgba(255,255,255,0.33) 30%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */ 
+                }
+            }
+            &__current {
+                &-dot {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+        &__arrow {
+            width: 7%;
+        }
+    }
+    .reviews-item__openbtn{width: 60px;}
+    .catalog-item{
+        padding: 5px;
+        &:hover {
+            box-shadow: 0 5px 8px 1px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+@media screen and (min-width: $extral) {
+    .blog-article__img-pic {top: -2rem;}
+    .slider {
+        &-container {
+            &__item {
+                position: relative;
+                max-height: 300px;
+                &-image{
+                    display: flex;
+                    justify-content: flex-end;
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+                &-gradient {
+                    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 30%, rgba(255,255,255,0.33) 40%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%);
+                    background: -o-linear-gradient(left, rgba(255,255,255,1) 30%, rgba(255,255,255,0.33) 40%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%);
+                    background: linear-gradient(to right, rgba(255,255,255,1) 30%, rgba(255,255,255,0.33) 40%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,0.33) 95%, rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */ 
+                }
+            }
+        }
+        &__arrow {
+            width: 10%;
+        }
+    }
+}
+
+@media screen and (max-width: $medium) {
+      
+}
