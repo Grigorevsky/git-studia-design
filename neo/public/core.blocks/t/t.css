@@ -1,0 +1,27 @@
+.t_dark-green, .t_dark-green span {
+    color: #838c4f;
+}
+.t_green {
+    color: #b7ca3a;
+}
+.t_red {
+    color: #ef3b24;
+}
+.t_gray {
+    color: #909090;
+}
+.t_blue {
+    color: #2b42f3;
+}
+.t_bold {
+    font-family: OpenSansBold, sans-serif;
+}
+.t_orange {
+    color: #db6a26;
+}
+.t_black {
+    color: #000;
+}
+.t_white {
+    color: #fff;
+}

@@ -1,0 +1,12 @@
+:root {
+    --font-r: RobotoRegular, sans-serif;
+    --font-b: RobotoBold, sans-serif;
+    --font-hb: RubikBold, sans-serif;
+    --font-l: RobotoLight, sans-serif;
+    --m-color-gr: #93a7a9;
+    --m-color-grl: #c5d6d8;
+    --m-color-grd: #526a6c;
+    --m-color-grr: #2e4749;
+    --m-color-grll: #e2edee;
+    --tran-soft: all .15s ease-in-out;
+}

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1199px) {
+    .h_size-xl, h_size-xl span {
+        font-size: 62px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .h_size-xl, h_size-xl span {
+        font-size: 54px;
+    }
+    .m-news__name a {
+        font-size: 18px;
+    }
+    .circle__text-b {
+        font-size: 22px;
+    }
+    .circle-wrap > span {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+    .circle__text {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .h_size-xl, h_size-xl span {
+        font-size: 42px;
+    }
+    .m-gallery__carousel {
+        width: 100%;
+    }
+    .h-top__phones a, .m_page__doc_pdficon::before {
+        font-size: 18px;
+    }
+    .h-nav__list {
+        display: none;
+    }
+    .h-nav__list ul {
+        padding-top: 15px;
+    }
+    .h-nav__list-item {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .m-gallery__carousel-item {
+        height: 250px;
+    }
+    .m-menu__block-name, .m-news__name a, .f-general__phones a {
+        font-size: 16px;
+    }
+    .m-news__data {
+        margin-top: 15px;
+    }
+    .m-gallery__item-data-line, .m-gallery__more-button .btn, .m-page__data table th, .m-page__data table td, .m_page__doc a {
+        font-size: 14px;
+    }
+    .m-page__data table th, .m-page__data table td {
+        padding: 10px 15px;
+    }
+    .m-page__data {
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .h_size-xl, h_size-xl span {
+        font-size: 32px;
+    }
+}
